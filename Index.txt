@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter McIntosh Associates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            font-size: 1.5rem;
+        }
+        .hero {
+            background: url('hero-banner.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .logo {
+            width: 150px;
+            margin: 20px auto;
+            display: block;
+        }
+        .profile-img {
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Hunter McIntosh Associates Logo" class="logo">
+    </header>
+    <div class="hero">Hunter McIntosh Associates Limited</div>
+    <div class="container">
+        <h2>Welcome</h2>
+        <p>Hunter McIntosh Associates provides expert consultancy and strategic advisory services.</p>
+        <h3>Our Services</h3>
+        <ul>
+            <li>Strategic Consultancy</li>
+            <li>Risk Management</li>
+            <li>Leadership Training</li>
+            <li>Corporate Advisory</li>
+        </ul>
+        <h3>About Me</h3>
+        <img src="profile.jpg" alt="Ken McIntosh" class="profile-img">
+        <p>Ken McIntosh, Director of Hunter McIntosh Associates, brings extensive experience in strategic consultancy and leadership.</p>
+    </div>
+    <footer>
+        &copy; 2025 Hunter McIntosh Associates Limited. All rights reserved.
+    </footer>
+</body>
+</html>
